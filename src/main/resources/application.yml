@@ -1,0 +1,12 @@
+spring:
+  security:
+    user:
+      name: mambo
+      password: mambo
+
+  freemarker:
+    suffix: .html
+server:
+  error:
+    whitelabel:
+      enabled: false
