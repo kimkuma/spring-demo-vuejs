@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import App from './App'
+import '~/vue/common/common'
 
 import store from '~/vue/store/store'
 import router from '~/vue/route/route'

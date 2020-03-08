@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "webpack --config webpack.config.js",
+    "dev": "webpack -d --config webpack.config.js --watch",
     "dev:server": "webpack-dev-server",
     "build": "npm run webpack --prettier"
   },
@@ -54,6 +55,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.1.2",
     "vue2-filters": "^0.10.0"

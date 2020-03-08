@@ -25,6 +25,7 @@ public class SecurityConfig {
                     .logoutSuccessUrl("/");
 
             http.authorizeRequests()
+                    .antMatchers("/api/state").permitAll()
                     .antMatchers("/api/**").authenticated()
                     .antMatchers("/").permitAll();
         }

@@ -1,7 +1,7 @@
 <template>
     <div>
         <section v-if="!state.name">
-            Not Logined User.
+            Not Logined User. 2
 
             <p>Can you <a href="/login">login</a>?</p>
         </section>
